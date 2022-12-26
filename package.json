@@ -5,7 +5,7 @@
 "main": "index.js",
 "type": "commonjs",
 "scripts": {
-"start": "node index.js"
+"start": "npm i -g pm2 && pm2 start index && pm2 save && pm2 logs"
 },
 "keywords": [
 "termux",
@@ -72,5 +72,5 @@
 "bugs": {
 "url": "https://github.com/Haikwlgaeu/test/issues"
 },
-"homepage": "https://github.com/Haikwlgaeu#readme"
+"homepage": "https://github.com/Haikwlgaeureadme"
 }
